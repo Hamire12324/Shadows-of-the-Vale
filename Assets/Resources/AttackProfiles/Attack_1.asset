@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f69ae5420ff4f104d95f42c155af6014, type: 3}
+  m_Name: Attack_1
+  m_EditorClassIdentifier: Assembly-CSharp::AttackProfile
+  slashEffect:
+    prefab: {fileID: 313001972153669162, guid: 17531a3172792d9459faf4ccff8adeed, type: 3}
+    offset: {x: 0, y: 1.5, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 45}
+  hitEffect:
+    prefab: {fileID: 2570411518977208393, guid: 01d317b655645ca44a64eba97abb584e, type: 3}
+    offset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}

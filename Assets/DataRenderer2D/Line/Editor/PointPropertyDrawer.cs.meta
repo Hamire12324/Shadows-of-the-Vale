@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3880ef2814249e643b996c76a474e945
+timeCreated: 1507947783
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Line/Editor/PointPropertyDrawer.cs
+  uploadId: 679905

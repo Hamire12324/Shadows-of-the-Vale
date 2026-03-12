@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31621139f74538b4a8e5c7884817111e, type: 3}
+  m_Name: BerserkerForm
+  m_EditorClassIdentifier: Assembly-CSharp::SkillData
+  skillID: 4
+  skillName: BerserkerForm
+  icon: {fileID: 21300000, guid: 513d2090ba754a7438ffc867ebc2e8f2, type: 3}
+  requiredLevel: 25
+  skillCost: 5
+  resourceType: 0
+  cost: 100
+  cooldown: 60
+  castType: 0
+  range: 0
+  animationIndex: 5
+  effects:
+  - {fileID: 11400000, guid: 284377ae3a77a2349989301cb97540c1, type: 2}

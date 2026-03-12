@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 94552a4af761a9c44b6a8b7061dfbb57
+timeCreated: 1517440545
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Readme.txt
+  uploadId: 679905

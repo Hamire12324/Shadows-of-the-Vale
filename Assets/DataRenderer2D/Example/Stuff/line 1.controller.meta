@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aaaf5782477e0264388e35e44d567968
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Example/Stuff/line 1.controller
+  uploadId: 679905

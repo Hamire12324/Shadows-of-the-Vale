@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c6b6383b7e11d73459f3f33d827fb5b7
+timeCreated: 1507507135
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Line/Scripts/Process/MeshBuilder/NormalJointDrawer.cs
+  uploadId: 679905

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6b0be7fd7ead6894c96970b7e6ad552d
+timeCreated: 1522248419
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Example/Stuff/hexagon.anim
+  uploadId: 679905

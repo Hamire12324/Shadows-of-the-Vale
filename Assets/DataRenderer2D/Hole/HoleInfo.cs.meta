@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a7bd61527dd448241914f1386fc534ff
+timeCreated: 1529381906
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Hole/HoleInfo.cs
+  uploadId: 679905

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: a9d8ffd304d903143b0934836459c597
+timeCreated: 1514255179
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Polygon/Scripts/Component/UIPolygon.cs
+  uploadId: 679905

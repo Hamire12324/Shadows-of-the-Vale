@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 208935ff53b11dd4fbc618a478b1e83b
+timeCreated: 1508814955
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Line/Editor/LineInpectorHandler.cs
+  uploadId: 679905

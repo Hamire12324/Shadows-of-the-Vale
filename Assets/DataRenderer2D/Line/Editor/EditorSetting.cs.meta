@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 30943c56159c82343b070cad006f5ad8
+timeCreated: 1508810779
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Line/Editor/EditorSetting.cs
+  uploadId: 679905

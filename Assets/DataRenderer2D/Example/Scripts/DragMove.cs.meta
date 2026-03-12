@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: e2890b1f2588521469219cdc348e4fe8
+timeCreated: 1522210687
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Example/Scripts/DragMove.cs
+  uploadId: 679905

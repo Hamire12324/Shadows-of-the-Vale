@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 09889cdc47060fd498444dd2aea4ef3b
+timeCreated: 1507106190
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Line/Scripts/Process/Static/CurveLength.cs
+  uploadId: 679905

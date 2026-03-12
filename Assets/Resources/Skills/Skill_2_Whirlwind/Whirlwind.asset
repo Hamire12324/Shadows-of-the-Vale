@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31621139f74538b4a8e5c7884817111e, type: 3}
+  m_Name: Whirlwind
+  m_EditorClassIdentifier: Assembly-CSharp::SkillData
+  skillID: 1
+  skillName: Whirlwind
+  icon: {fileID: 21300000, guid: 64bd6fcd22dcdb1488b50b0c02849b95, type: 3}
+  requiredLevel: 10
+  skillCost: 5
+  resourceType: 1
+  cost: 20
+  cooldown: 15
+  castType: 1
+  range: 0
+  animationIndex: 2
+  effects:
+  - {fileID: 11400000, guid: e8e661a8df7ce6f43ac418c9d10c25fc, type: 2}

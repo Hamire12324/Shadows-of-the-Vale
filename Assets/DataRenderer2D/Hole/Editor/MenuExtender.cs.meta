@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ee7b670e1f2e6ab42a2530fc6bf4d7cf
+timeCreated: 1529383118
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Hole/Editor/MenuExtender.cs
+  uploadId: 679905

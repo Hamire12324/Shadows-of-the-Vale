@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0e295b52ad9e635459cfdd0164eaf43f
+timeCreated: 1529568561
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Example/Stuff/hole.anim
+  uploadId: 679905

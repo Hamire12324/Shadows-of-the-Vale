@@ -1,0 +1,401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74208a2ae1f8fc040b0c132e7114b767, type: 3}
+  m_Name: WarriorSkillTree
+  m_EditorClassIdentifier: Assembly-CSharp::SkillTreeData
+  nodes:
+  - id: 0
+    nodeName: SkyfallSlash
+    description: "Nh\u1EA3y l\xEAn xoay ki\u1EBFm 1 xoay g\xE2y s\xE1t th\u01B0\u01A1ng
+      aoe 150% dame aoe"
+    position: {x: 280, y: 0}
+    icon: {fileID: 21300000, guid: 0bff7be837e8d024e8b90a84cc395a46, type: 3}
+    nodeType: 2
+    maxLevel: 5
+    prerequisites: 05000000
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 11400000, guid: ae0f53e23fb304c46973d635cabc12ea, type: 2}
+    requiredNodes: []
+    upgradeEffects: []
+    modifiers:
+    - type: 2
+      values:
+      - 0
+      - 0.2
+      - 0.5
+      - 0.8
+      - 1.2
+    - type: 9
+      values:
+      - 0
+      - 0.2
+      - 0.5
+      - 0.8
+      - 1
+    - type: 10
+      values:
+      - 0
+      - 2
+      - 5
+      - 7
+      - 10
+    statModifiers: []
+  - id: 1
+    nodeName: Whirlwind
+    description: "Xoay ki\u1EBFm g\xE2y s\xE1t th\u01B0\u01A1ng aoe trong 6s m\u1ED7i
+      0.5s 1 l\u1EA7n b\u1EB1ng 60%"
+    position: {x: 200, y: 200}
+    icon: {fileID: 21300000, guid: 64bd6fcd22dcdb1488b50b0c02849b95, type: 3}
+    nodeType: 2
+    maxLevel: 5
+    prerequisites: 07000000
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 11400000, guid: de22d26028818474a8e4a8c3c5df117b, type: 2}
+    requiredNodes: []
+    upgradeEffects: []
+    modifiers:
+    - type: 2
+      values:
+      - 0
+      - 0.05
+      - 0.1
+      - 0.15
+      - 0.2
+    - type: 10
+      values:
+      - 0
+      - 2
+      - 5
+      - 8
+      - 10
+    statModifiers: []
+  - id: 2
+    nodeName: IronWill
+    description: "G\u1EA7m l\xEAn t\u0103ng s\xE1t th\u01B0\u01A1ng c\u1EE7a b\u1EA3n
+      th\xE2n l\xEAn 15% trong 15s"
+    position: {x: 0, y: 280}
+    icon: {fileID: 21300000, guid: e8115c4780a9fb148963983c606506c5, type: 3}
+    nodeType: 2
+    maxLevel: 5
+    prerequisites: 09000000
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 11400000, guid: 5fddb639a87f3fb4b86589cce04e88bd, type: 2}
+    requiredNodes: []
+    upgradeEffects: []
+    modifiers:
+    - type: 4
+      values:
+      - 0
+      - 0.2
+      - 0.25
+      - 0.3
+      - 0.35
+    - type: 0
+      values:
+      - 0
+      - 0.5
+      - 1
+      - 1.5
+      - 2
+    statModifiers: []
+  - id: 3
+    nodeName: PowerSlash
+    description: "\u0110\xE2m m\u1EA1nh v\u1EC1 ph\xEDa tr\u01B0\u1EDBc g\xE2y 300%
+      dame"
+    position: {x: -200, y: 200}
+    icon: {fileID: 21300000, guid: 4c2d00409c0b3494f9802468f35fd9b5, type: 3}
+    nodeType: 2
+    maxLevel: 5
+    prerequisites: 0b000000
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 11400000, guid: b4084671403153f4ca310fe533afa01f, type: 2}
+    requiredNodes: []
+    upgradeEffects: []
+    modifiers:
+    - type: 2
+      values:
+      - 0
+      - 0.4
+      - 0.8
+      - 1.3
+      - 2
+    - type: 9
+      values:
+      - 0
+      - 0.5
+      - 1
+      - 1.5
+      - 2
+    - type: 10
+      values:
+      - 0
+      - 2
+      - 5
+      - 7
+      - 10
+    statModifiers: []
+  - id: 4
+    nodeName: BerserkerForm
+    description: "T\u0103ng 100% crit v\xE0 100% crit dame"
+    position: {x: -280, y: 0}
+    icon: {fileID: 21300000, guid: 513d2090ba754a7438ffc867ebc2e8f2, type: 3}
+    nodeType: 2
+    maxLevel: 5
+    prerequisites: 0d000000
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 11400000, guid: 4651a70d4b1ad0547abb8ca10dca4d17, type: 2}
+    requiredNodes: []
+    upgradeEffects: []
+    modifiers:
+    - type: 0
+      values:
+      - 0
+      - 0.5
+      - 1
+      - 1.5
+      - 2
+    - type: 4
+      values:
+      - 0
+      - 0.05
+      - 0.1
+      - 0.15
+      - 0.3
+    - type: 10
+      values:
+      - 0
+      - 10
+      - 20
+      - 30
+      - 50
+    statModifiers: []
+  - id: 5
+    nodeName: SkyfallSlash_Update_1
+    description: "G\xE2y 1.5s stun"
+    position: {x: 550, y: 0}
+    icon: {fileID: 21300000, guid: fc7d858ca5a182e4d80d339cf0b50df2, type: 3}
+    nodeType: 1
+    maxLevel: 5
+    prerequisites: 06000000
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 11400000, guid: ae0f53e23fb304c46973d635cabc12ea, type: 2}
+    requiredNodes:
+    - nodeId: 0
+      requiredLevel: 5
+    upgradeEffects:
+    - {fileID: 11400000, guid: 636966048bbaed0429bba0fcb3c9593c, type: 2}
+    modifiers:
+    - type: 11
+      values:
+      - 0.25
+      - 0.5
+      - 0.75
+      - 1
+      - 1.5
+    statModifiers: []
+  - id: 6
+    nodeName: "T\u0103ng Crit"
+    description: "T\u0103ng 1% crit cho nh\xE2n v\u1EADt"
+    position: {x: 508, y: 210}
+    icon: {fileID: 21300000, guid: c24620eafefbca84791c90c58ec5dae5, type: 3}
+    nodeType: 0
+    maxLevel: 5
+    prerequisites: 
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 0}
+    requiredNodes:
+    - nodeId: 5
+      requiredLevel: 1
+    - nodeId: 7
+      requiredLevel: 1
+    upgradeEffects: []
+    modifiers: []
+    statModifiers:
+    - statType: 5
+      modifierType: 1
+      values:
+      - 0.01
+      - 0.02
+      - 0.03
+      - 0.04
+      - 0.05
+  - id: 7
+    nodeName: Whirlwind_Update
+    description: "T\u0103ng 0.5s"
+    position: {x: 390, y: 390}
+    icon: {fileID: 21300000, guid: ea1934632e0a07f44ac29ddb763cd9cf, type: 3}
+    nodeType: 1
+    maxLevel: 5
+    prerequisites: 0600000008000000
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 11400000, guid: de22d26028818474a8e4a8c3c5df117b, type: 2}
+    requiredNodes:
+    - nodeId: 1
+      requiredLevel: 5
+    upgradeEffects: []
+    modifiers:
+    - type: 0
+      values:
+      - 0
+      - 0.5
+      - 1
+      - 1.5
+      - 2
+    statModifiers: []
+  - id: 8
+    nodeName: "T\u0103ng HP"
+    description: "T\u0103ng 1% HP cho nh\xE2n v\u1EADt"
+    position: {x: 210, y: 510}
+    icon: {fileID: 21300000, guid: 9d99d011c762ace4c86ad318e1e624a3, type: 3}
+    nodeType: 0
+    maxLevel: 5
+    prerequisites: 09000000
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 0}
+    requiredNodes:
+    - nodeId: 7
+      requiredLevel: 1
+    - nodeId: 9
+      requiredLevel: 1
+    upgradeEffects: []
+    modifiers: []
+    statModifiers:
+    - statType: 3
+      modifierType: 1
+      values:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+  - id: 9
+    nodeName: IronWill_Update_1
+    description: "H\u1ED3i 5% HP"
+    position: {x: 0, y: 550}
+    icon: {fileID: 21300000, guid: 1a1ffa6606544084bb364d8769a7d50b, type: 3}
+    nodeType: 1
+    maxLevel: 5
+    prerequisites: 
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 11400000, guid: 5fddb639a87f3fb4b86589cce04e88bd, type: 2}
+    requiredNodes:
+    - nodeId: 2
+      requiredLevel: 5
+    upgradeEffects:
+    - {fileID: 11400000, guid: 4a07e4b4525386e419cb84b82c6e3005, type: 2}
+    modifiers:
+    - type: 13
+      values:
+      - 0
+      - 0.01
+      - 0.02
+      - 0.03
+      - 0.05
+    statModifiers: []
+  - id: 10
+    nodeName: "T\u0103ng Crit Damage"
+    description: "T\u0103ng 2% Crit Damage cho nh\xE2n v\u1EADt"
+    position: {x: -210, y: 510}
+    icon: {fileID: 21300000, guid: 9d99d011c762ace4c86ad318e1e624a3, type: 3}
+    nodeType: 0
+    maxLevel: 5
+    prerequisites: 09000000
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 0}
+    requiredNodes:
+    - nodeId: 9
+      requiredLevel: 1
+    - nodeId: 11
+      requiredLevel: 1
+    upgradeEffects: []
+    modifiers: []
+    statModifiers:
+    - statType: 6
+      modifierType: 1
+      values:
+      - 0.02
+      - 0.04
+      - 0.06
+      - 0.08
+      - 0.1
+  - id: 11
+    nodeName: PowerSlash_Update_1
+    description: "T\u0103ng 100% Crit Dame cho skill PowerSlash"
+    position: {x: -390, y: 390}
+    icon: {fileID: 21300000, guid: ebd8073fb4741c64b9043c1d9366dd38, type: 3}
+    nodeType: 1
+    maxLevel: 5
+    prerequisites: 0a0000000c000000
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 11400000, guid: b4084671403153f4ca310fe533afa01f, type: 2}
+    requiredNodes:
+    - nodeId: 3
+      requiredLevel: 5
+    upgradeEffects: []
+    modifiers:
+    - type: 6
+      values:
+      - 0
+      - 0.2
+      - 0.4
+      - 0.6
+      - 1
+    statModifiers: []
+  - id: 12
+    nodeName: "T\u0103ng  Damage"
+    description: "T\u0103ng 2% Damage cho nh\xE2n v\u1EADt"
+    position: {x: -510, y: 210}
+    icon: {fileID: 21300000, guid: 7c31e9e2b85c9584a8a10a99e7434795, type: 3}
+    nodeType: 0
+    maxLevel: 5
+    prerequisites: 
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 0}
+    requiredNodes:
+    - nodeId: 11
+      requiredLevel: 1
+    - nodeId: 13
+      requiredLevel: 1
+    upgradeEffects: []
+    modifiers: []
+    statModifiers:
+    - statType: 1
+      modifierType: 2
+      values:
+      - 0.02
+      - 0.04
+      - 0.06
+      - 0.08
+      - 0.1
+  - id: 13
+    nodeName: Berserker_Update_1
+    description: "Gi\u1EA3m th\u1EDDi gian h\u1ED3i chi\xEAu 1s"
+    position: {x: -600, y: 0}
+    icon: {fileID: 21300000, guid: 307cda7e77c621247a6e5dd40e8fbbec, type: 3}
+    nodeType: 1
+    maxLevel: 5
+    prerequisites: 0c000000
+    upgradeCosts: 0100000001000000020000000300000005000000
+    skillData: {fileID: 11400000, guid: 4651a70d4b1ad0547abb8ca10dca4d17, type: 2}
+    requiredNodes:
+    - nodeId: 4
+      requiredLevel: 5
+    upgradeEffects: []
+    modifiers:
+    - type: 9
+      values:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+    statModifiers: []

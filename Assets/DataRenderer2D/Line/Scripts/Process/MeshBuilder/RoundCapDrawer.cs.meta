@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 51b8fb77b160c4644a4a796664bd3df9
+timeCreated: 1507659613
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Line/Scripts/Process/MeshBuilder/RoundCapDrawer.cs
+  uploadId: 679905

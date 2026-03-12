@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 00d55dac87eea5442912ed1ab8cd50f7
+timeCreated: 1531209775
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Example/Symbol.prefab
+  uploadId: 679905

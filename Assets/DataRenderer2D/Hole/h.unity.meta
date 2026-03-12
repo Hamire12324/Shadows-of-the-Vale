@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4a298da31ecfecf45a825c54242f0956
+timeCreated: 1529568020
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102377
+  packageName: Data Renderer 2D
+  packageVersion: 1.22
+  assetPath: Assets/DataRenderer2D/Hole/h.unity
+  uploadId: 679905
